@@ -6,7 +6,7 @@
 
 This Big Data project performs real-time sentiment analysis on tweets using a complete data engineering and machine learning pipeline. It combines Kafka for data ingestion, Spark (Python + Scala) for stream and batch processing, Agentic AI for sentiment classification, MongoDB for storage.
 
-⸻
+
 
 🧠 Overview
 
@@ -19,7 +19,7 @@ This project demonstrates how to build a real-time Big Data application that:
 
 📡 It also integrates Scala for batch analytics and Hadoop (HDFS) to store summaries, fulfilling distributed system requirements.
 
-⸻
+
 
 📐 Project Architecture
 
@@ -39,7 +39,6 @@ Scala Spark
 (HDFS Output)
 
 
-⸻
 
 🔧 Technologies Used
 
@@ -52,14 +51,14 @@ Storage	MongoDB
 Deployment	Docker (Kafka Zookeeper setup)
 
 
-⸻
+
 
 🗃 Dataset Used
 	•	📁 twitter_training.csv: 74,682 labeled tweets for training
 	•	📁 twitter_validation.csv: 998 tweets for validation
 	•	Source: Twitter Entity Sentiment Analysis - Kaggle
 
-⸻
+
 
 📦 Repository Structure
 
@@ -78,7 +77,7 @@ Deployment	Docker (Kafka Zookeeper setup)
 └── bigdataproject_rapport.pdf   # French summary report (if required)
 
 
-⸻
+
 
 ⚙️ Setup & Run
 
@@ -100,7 +99,6 @@ spark-submit --class SentimentSummary --master local Scala-Spark-Batch/sentiment
 
 
 
-⸻
 
 📈 Features
 	•	✅ Live tweet ingestion using Kafka
@@ -109,7 +107,7 @@ spark-submit --class SentimentSummary --master local Scala-Spark-Batch/sentiment
 	•	✅ Scala-based trend aggregation saved to HDFS
 	•	✅ End-to-end Big Data pipeline
 
-⸻
+
 
 📌 Contribution Ideas
 	•	Add toxicity or emotion classification
